@@ -1,0 +1,561 @@
+@font-face {
+    font-family: PTSansCaption-Regular;
+    src: url('fonts/PTSans/PTSansCaption-Regular.ttf');
+}
+
+@font-face {
+    font-family: Parangon530C;
+    src: url("fonts/Parangon/Parangon530C.ttf");
+}
+
+@font-face {
+    font-family: Futura;
+    src: url("fonts/Futura/FuturaMediumC.ttf");
+}
+
+@font-face {
+    font-family: HelveticaBold;
+    src: url("fonts/HelveticaNeue/helveticaneuecyr-bold.ttf");
+}
+
+@font-face {
+    font-family: HelveticaRoman;
+    src: url("fonts/HelveticaNeue/helveticaneuecyr-roman.ttf");
+}
+
+@font-face {
+    font-family: MyraidPro;
+    src: url("fonts/MyriadPro/MYRIADPRO-REGULAR.OTF");
+}
+
+@font-face {
+    font-family: Exo2Bold;
+    src: url("fonts/Exo2-SemiBold/static/Exo2-Bold.ttf");
+}
+
+@font-face {
+    font-family: FuturaMdBT;
+    src: url('fonts/Futura/futuramdbt_bold.otf');
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1224px;
+    margin: 0 auto;
+}
+
+ul {
+    text-decoration: none;
+}
+
+/*---------------Header Start---------------*/
+
+.head {
+    background: url("img/background.png") no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 125px;
+}
+
+.head h1 {
+    font-family: Parangon530C;
+    font-size: 48px;
+    letter-spacing: 0.03em;
+    line-height: 70px;
+    margin-bottom: 25px;
+}
+
+.zagolovok {
+    padding-top: 195px;
+}
+
+.head .zagolovok p {
+    margin: 0 auto;
+    font-family: PTSansCaption-Regular;
+    font-size: 24px;
+    width: 850px;
+    letter-spacing: 0.05em;
+    line-height: 35px;
+}
+
+.rating {
+    margin-top: 60px;
+    margin-left: 177px;
+    display: flex;
+    gap: 58px;
+}
+
+.rating article {
+    width: 251.46px;
+    border: 1px solid white;
+    padding: 48px 0 38px 0;
+}
+
+.head .rating h2 {
+    font-family: Parangon530C;
+    font-size: 48px;
+}
+
+.head .rating p {
+    font-family: PTSansCaption-Regular;
+    font-size: 18px;
+}
+
+/*---------------Header End---------------*/
+
+/*---------------Nav Start---------------*/
+.navigation {
+    list-style-type: none;
+    display: flex;
+    margin-top: 34px;
+    margin-left: 487px;
+    font-family: Futura;
+    font-size: 30px;
+    gap: 40px;
+    letter-spacing: 0.03em;
+}
+
+.glavnaya {
+    color: orange;
+}
+
+.line {
+    border: gray solid 1px;
+    margin-top: 28px;
+}
+
+/*---------------Nav End---------------*/
+
+/*---------------Main Start---------------*/
+/*---------------Glav Start---------------*/
+.glav {
+    display: flex;
+}
+
+.glav h2 {
+    flex-direction: row;
+    font-family: HelveticaBold;
+    font-size: 48px;
+    margin: 210px 50px 0 328px;
+    letter-spacing: 0.02em;
+}
+
+.WE {
+    background: url("img/WE.png") no-repeat;
+    width: 900px;
+    height: 247px;
+    margin: 128px 0px 163px 90px;
+}
+
+.glav p {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 0 0 80px;
+    line-height: 30px;
+}
+
+/*---------------Glav End---------------*/
+
+/*---------------INFO Start---------------*/
+.continfo {
+    display: flex;
+    gap: 45px;
+    margin-left: 334px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.continfo p {
+    font-weight: bold;
+    font-size: 20.45px;
+    margin: 5px 0 7px 0;
+}
+
+.continfo .info {
+    width: 400px;
+    height: 330px;
+    font-size: 15.34px;
+    letter-spacing: 0.05em;
+}
+
+.continfo .info span {
+    line-height: 25px;
+}
+
+.continfo .b2 {
+    margin-left: 8px;
+}
+
+.b2 p {
+    margin-top: 19px;
+}
+
+.b3 {
+    background: #f6ae48;
+    color: white;
+    margin-left: -62px;
+    margin-top: -13px;
+    padding: 14px 0 0 21px;
+}
+
+.b3>p {
+    margin-top: 18px;
+}
+
+.arrow {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow span {
+    padding: 5px;
+    border: 2px solid white;
+    width: 120px;
+    font-family: MyraidPro;
+    font-size: 18px;
+    text-align: center;
+}
+
+.arrow img {
+    padding-top: 3px;
+    margin-right: 40px;
+    width: 25px;
+    height: 25px;
+}
+
+/*---------------INFO End---------------*/
+
+/*---------------Kredo Start---------------*/
+.kredo {
+    margin-top: 250px;
+    background: url('img/background2.png') no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 156px;
+}
+
+.kredo h2 {
+    padding-top: 118px;
+    font-family: Exo2Bold;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+}
+
+.kredo p {
+    margin-top: 60px;
+    font-size: 24px;
+    font-family: HelveticaRoman;
+    letter-spacing: 0.034em;
+    line-height: 35px;
+}
+
+/*---------------Kredo End---------------*/
+
+/*---------------Razrab Start---------------*/
+.razrab {
+    margin: -46px 0 0 202px;
+    background: url('img/shesterni2.png');
+    width: 666px;
+    padding-bottom: 344px;
+    display: flex;
+}
+
+.razrab p {
+    color: white;
+    font-size: 48px;
+    font-family: Parangon530C;
+    letter-spacing: 0.07em;
+    margin: 128px 0 0 129px;
+}
+
+/*---------------Razrab End---------------*/
+
+.contLp {
+    margin-top: 65px;
+    width: 280px;
+}
+
+/*---------------Landing Start---------------*/
+.landing {
+    display: flex;
+    margin: -270px 0 0 389px;
+}
+
+.landing .lp {
+    width: 366px;
+    font-family: FuturaMdBT;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.landing .bl1 {
+    background: url('img/ld1.png') no-repeat;
+    padding-bottom: 35px;
+}
+
+.borderline {
+    border: 1px solid white;
+    margin: 15px 13px 40px 4px;
+}
+
+.landing .lp span {
+    width: 160px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: MyraidPro;
+    font-weight: 400;
+    border: 2.7px solid #00b9e7;
+    padding: 10px 20px;
+}
+
+.landing h2 {
+    line-height: 50px;
+    letter-spacing: 0.03em;
+}
+
+.arrow2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.arrow2 img {
+    margin-top: 10px;
+    padding-top: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.landing .bl2 {
+    background: url('img/ld2.png') no-repeat;
+}
+
+.landing .bl2 span {
+    border: 2.7px solid #ffcb00;
+}
+
+.landing .bl3 {
+    background: url('img/ld3.png');
+}
+
+.landing .bl3 span {
+    border: 2.7px solid #66bf0d;
+}
+
+/*---------------Landing End---------------*/
+
+.vperviye {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    padding-top: 205px;
+    gap: 223px;
+    margin-bottom: 118px;
+}
+
+.vperviye2 p {
+    font-size: 24px;
+    word-spacing: 0.15em;
+    margin: 16px 0 0 55px;
+    line-height: 48px;
+    width: 558px;
+
+}
+
+.btf {
+    background: url("img/btf.png");
+    background-size: cover;
+    width: 588px;
+    height: 60px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.vperviye h3 {
+    font-size: 36px;
+    padding: 10px 100px 16px 56px;
+}
+
+.ourprojects {
+    width: 1920px;
+    height: 118px;
+    background: #303263;
+    display: flex;
+    align-items: center;
+}
+
+.bluelines h4 {
+    color: #FFFFFF;
+    font-size: 35px;
+    width: 460px;
+    margin: 0 auto;
+    font-family: Parangon530C;
+    letter-spacing: 0.05em;
+}
+
+.google {
+    background-image: url("img/google.png");
+    width: 205px;
+    height: 213px;
+    margin-top: -30px;
+}
+
+.yandex {
+    background-image: url("img/yandex.png");
+    width: 199px;
+    height: 214px;
+    margin-top: 39px;
+}
+
+.bluelines {
+    background-image: url("img/ors.png");
+    background-repeat: no-repeat;
+    width: 805px;
+    height: 90px;
+    margin: 0 auto;
+    width: 816px;
+    display: flex;
+    align-items: center;
+}
+
+.block {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.block2 {
+    display: flex;
+}
+
+.block3 {
+    display: flex;
+    align-items: center;
+}
+
+.engine p {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 80px;
+    font-family: Exo2Bold;
+    margin-left: 100px;
+}
+
+.engine p span {
+    font-size: 72px;
+}
+
+.monic {
+    background-image: url("img/monic1.png");
+    width: 372px;
+    height: 325px;
+}
+
+.monic2 {
+    background-image: url("img/monic2.png");
+    width: 372px;
+    height: 325px;
+}
+
+.ehe {
+    font-size: 24px;
+    padding: 17px 15px;
+    color: #FFFFFF;
+    background: #6a6b8e;
+    width: 240px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: Parangon530C;
+}
+
+.pc {
+    background-image: url("img/pc.png");
+    width: 771px;
+    height: 426px;
+}
+
+.expertiz {
+    background-image: url("img/expertiz.png");
+    width: 743px;
+    height: 426px;
+}
+
+.planshet {
+    background-image: url("img/planshet.png");
+    width: 365px;
+    height: 323px;
+}
+
+.engine {
+    background-image: url("img/engine.png");
+    background-repeat: no-repeat;
+    width: 355px;
+    height: 305px;
+    margin: 2px 11px;
+}
+
+.adaptate {
+    background: url("img/adapt.png") no-repeat;
+    width: 445px;
+    height: 60px;
+}
+
+.adaptate h3 {
+    font-family: Parangon530C;
+    letter-spacing: 0.04em;
+}
+
+.vperviye2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+}
+
+.adaptate1 {
+    gap: 0;
+}
+
+.device {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 50px;
+    margin-top: -53px;
+}
+
+.iphone {
+    background-image: url("img/iphone.png");
+    width: 116px;
+    height: 229px;
+    margin-left: 88px;
+}
+
+.ipad {
+    background-image: url("img/ipad.png");
+    background-size: cover;
+    width: 240px;
+    height: 340px;
+    margin-left: 55px;
+}
+
+.mac {
+    background-image: url("img/mac.png");
+    width: 220px;
+    height: 432px;
+    margin-left: 40px;
+}
+
+/*---------------Main End---------------*/
